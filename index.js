@@ -10,7 +10,7 @@ const app = express();
 app.use(express.json());
 
 const corsOptions = {
-    origin: ["http://localhost:3000"],
+    origin: ["https://medicine-theta.vercel.app", "http://localhost:3000"],
     credentials: true,
 };
 app.use(cors(corsOptions));
